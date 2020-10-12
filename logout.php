@@ -18,3 +18,5 @@ if (ini_get("session.use_cookies")) {
 }
 
 session_destroy();
+
+header('Location: http://devweb3cours6.com/index.php');
